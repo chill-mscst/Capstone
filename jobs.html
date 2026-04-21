@@ -18,6 +18,7 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link px-3" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="services.html">Services</a></li>
           <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link px-3 active" href="jobs.html">Jobs</a></li>
         </ul>
@@ -35,12 +36,30 @@
                   <p>We're looking for an experienced roofer who preferably also has some other general construction knowledge.</p>
               </div>
               <div class="col-md-4 d-flex align-items-center justify-content-md-end">
-                  <a href="#apply" class="btn btn-psycho px-4">Details</a>
+                  <button type="apply" class="btn btn-psycho px-4" data-bs-toggle="modal" data-bs-target="#applyModal">Details</button>
               </div>
           </div>
       </div>
     </section>
   </main>
+
+  <div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content bg-dark text-white border-danger">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title" id="applyModalLabel">Roofer Position Details</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Part-time roofer role requiring experience and general construction knowledge. Pay: $25-35/hr based on experience. Hours: 15-25/week. Location: Dakota, MN and the surrounding areas.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="mailto:jobs@psychoconstruction.com" class="btn btn-psycho">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="app-toolbar bg-black border-top border-danger py-3">
     <div class="container">
